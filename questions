@@ -1,0 +1,109 @@
+Step-by-Step Development Questions for Full Banking Application
+This document contains a complete set of step-by-step development questions to guide the implementation of the Full Banking Application project using C# and Object-Oriented Programming concepts.
+1. Project Planning & Requirement Analysis
+1. What is the main purpose of the banking application?
+2. Who are the target users of the system (Admin, Staff, Customer)?
+3. What are the functional requirements of the system?
+4. What are the non-functional requirements of the system?
+5. What banking operations should the system support?
+6. How will data be stored in the system?
+7. What security features are required for the application?
+8. What technologies and tools will be used?
+2. System Design Questions
+1. What classes are required for the system?
+2. What attributes should be included in the Account class?
+3. What methods should be included in the Account class?
+4. How should inheritance be implemented between SavingAccount and CurrentAccount?
+5. What properties should the User class contain?
+6. How will interfaces be used in the project?
+7. How should transaction history be managed?
+8. How should account numbers be generated uniquely?
+3. Login & Authentication
+1. How will users log in to the system?
+2. How should admin and staff roles be differentiated?
+3. How should invalid login attempts be handled?
+4. How will default admin accounts be created?
+5. How should passwords be stored securely?
+6. How will session management work?
+4. Account Creation Module
+1. What information is required to create a bank account?
+2. How will the system validate user input?
+3. How will account types be selected?
+4. How will account numbers be generated?
+5. How will duplicate accounts be prevented?
+6. What initial balance rules should be implemented?
+7. How will account details be saved into JSON files?
+5. Deposit Module
+1. How will users select an account for deposit?
+2. How will deposit amounts be validated?
+3. What happens after a successful deposit?
+4. How will transaction history be updated after deposits?
+5. How will invalid deposit attempts be handled?
+6. Withdrawal Module
+1. How will users withdraw money from an account?
+2. How will insufficient balance conditions be checked?
+3. What withdrawal limits should be implemented?
+4. How will failed withdrawals be handled?
+5. How will transaction history record withdrawals?
+7. Transfer Module
+1. How will money transfers between accounts work?
+2. How will sender and receiver accounts be validated?
+3. How will transfer amounts be checked?
+4. How will transaction history record transfers?
+5. How will failed transfers be handled?
+8. Account Viewing & Balance Checking
+1. How will all accounts be displayed?
+2. How will account searching work?
+3. How will balance inquiries be handled?
+4. How should account information be formatted on screen?
+9. Transaction History
+1. How will transaction history be stored?
+2. What details should each transaction contain?
+3. How will transaction history be displayed?
+4. How will transaction records be filtered?
+10. File Handling & Data Storage
+1. How will JSON serialization work in the project?
+2. How will user data be loaded from files?
+3. How will account data be saved into files?
+4. How will missing files be handled?
+5. How will corrupted data files be handled?
+11. Validation & Error Handling
+1. How will null or empty inputs be validated?
+2. How will invalid account numbers be handled?
+3. How will invalid numeric values be prevented?
+4. How will exceptions be managed in the system?
+5. How will user-friendly error messages be displayed?
+12. Object-Oriented Programming Concepts
+1. How is encapsulation implemented in the system?
+2. How is inheritance used in the banking application?
+3. How is polymorphism implemented?
+4. How are interfaces used?
+5. Why is abstraction important in this project?
+13. Testing Questions
+1. How will unit testing be performed?
+2. How will login functionality be tested?
+3. How will deposit and withdrawal operations be tested?
+4. How will transfer functionality be tested?
+5. How will file handling be tested?
+6. How will edge cases be tested?
+14. UI & User Experience
+1. How should the console menu be designed?
+2. How will users navigate through the system?
+3. How should success and error messages be displayed?
+4. How will the system improve user experience?
+15. Security & Future Improvements
+1. How can the application be secured further?
+2. How can password encryption be implemented?
+3. How can database integration be added in the future?
+4. How can a graphical user interface (GUI) be implemented?
+5. How can online banking features be added?
+6. How can mobile banking integration be implemented?
+16. Viva & Presentation Preparation
+1. Why did you choose C# for this project?
+2. Why did you use JSON files instead of a database?
+3. What challenges did you face during development?
+4. How did you solve those challenges?
+5. What are the main features of the system?
+6. How does the account creation process work?
+7. How is OOP applied in the project?
+8. What improvements can be added in future versions?
